@@ -6,4 +6,4 @@ This repo demonstrates the use of GradCAM visualizations to investigate if a mod
 [[Link to Demo]](https://youtu.be/9cGBaeQ9GtE "Click to watch")
 
 # Overview of the pipeline
-![Alt text](InScene_Full_Workflow_Github.png)
+![Alt text](gradcam_working.png)
