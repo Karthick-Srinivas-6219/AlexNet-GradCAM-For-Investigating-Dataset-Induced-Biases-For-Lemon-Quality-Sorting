@@ -20,7 +20,7 @@ This repo demonstrates the use of GradCAM visualizations to investigate if a mod
 ```bash
 .
 ├── AlexNet_Finetune.ipynb/              # Loads AlexNet from PyTorch model zoo and finetunes it on the lemon quality dataset.
-├── Model_Testing_GradCAMViz/          # infers from the finetuned AlexNet model and demonstrates GradCAM use on the final feature extraction layer.
+├── Model_Testing_GradCAMViz.ipynb/          # infers from the finetuned AlexNet model and demonstrates GradCAM use on the final feature extraction layer.
 ├── requirements.txt      # Python dependencies.
 ├── demo.py            # An interactive UI based GradCAM visualizer.
 ├── dataset/                   # Lemon quality Bi-Class dataset
@@ -32,13 +32,27 @@ This repo demonstrates the use of GradCAM visualizations to investigate if a mod
 
 ## 🔧 Running Dependency
 
-To download the **Lemon Quality dataset** click on this link [[Link to download]]([https://github.com/mohamedamine99/Facial-recognition-with-dlib](https://drive.google.com/drive/folders/1duEVC9FWB5z3H0I6rEtV33JzSudWob5Q?usp=drive_link)).
-
-Place this file inside ```models/ ```
+To download the **Lemon Quality dataset** click on this link [[Link to download]]([https://drive.google.com/drive/folders/1duEVC9FWB5z3H0I6rEtV33JzSudWob5Q?usp=drive_link]).
+To download the **Finetuned Model Weights** click on this link [[Link to download]]([https://drive.google.com/drive/folders/1duEVC9FWB5z3H0I6rEtV33JzSudWob5Q?usp=drive_link]).
+Place the dataset and weights file inside your project directory. 
 
    ```bash
-   ├── models/
-       ├── dlib_face_recognition_resnet_model_v1.dat
-       ├── mmod_human_face_detector.dat
-       ├── shape-predictor-68-face-landmarks.dat
+   ├── dataset/
+       ├── train
+       ├── val
+       ├── test
+   ├── frozen_model.pth
    ```
+## 📜 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## 🙌 Acknowledgements
+
+* [AlexNet]([https://kpzhang93.github.io/MTCNN_face_detection_alignment/](https://proceedings.neurips.cc/paper_files/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf)) - The AlexNet **Research Paper**. 
+* [GradCAM]([http://dlib.net/](https://arxiv.org/abs/1610.02391)) - The GradCAM**Research Paper**.
+---
+
+### ⭐ If you find this project helpful, don’t forget to star the repo!
