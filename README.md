@@ -53,8 +53,8 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## 🙌 Acknowledgements
 
-* [AlexNet](https://kpzhang93.github.io/MTCNN_face_detection_alignment/](https://proceedings.neurips.cc/paper_files/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf) - The AlexNet **Research Paper**. 
-* [GradCAM](http://dlib.net/](https://arxiv.org/abs/1610.02391) - The GradCAM **Research Paper**.
+* [AlexNet](https://proceedings.neurips.cc/paper_files/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf) - The AlexNet **Research Paper**. 
+* [GradCAM](https://arxiv.org/abs/1610.02391) - The GradCAM **Research Paper**.
 ---
 
 ### ⭐ If you find this project helpful, don’t forget to star the repo!
