@@ -34,7 +34,7 @@ This repo demonstrates the use of GradCAM visualizations to investigate if a mod
 
 To download the **Lemon Quality dataset** click on this link [[Link to download]](https://drive.google.com/drive/folders/1duEVC9FWB5z3H0I6rEtV33JzSudWob5Q?usp=drive_link).
 
-To download the **Finetuned Model Weights** click on this link [[Link to download]](https://drive.google.com/drive/folders/1duEVC9FWB5z3H0I6rEtV33JzSudWob5Q?usp=drive_link).
+To download the **Finetuned Model Weights** click on this link [[Link to download]](https://drive.google.com/file/d/1QS6cu2V4mXHOL8UwqKcN4OA55oJ0QFaq/view?usp=drive_link)).
 
 Place the dataset and weights file inside your project directory. 
 
@@ -53,8 +53,8 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## 🙌 Acknowledgements
 
-* [AlexNet]([https://kpzhang93.github.io/MTCNN_face_detection_alignment/](https://proceedings.neurips.cc/paper_files/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf)) - The AlexNet **Research Paper**. 
-* [GradCAM]([http://dlib.net/](https://arxiv.org/abs/1610.02391)) - The GradCAM **Research Paper**.
+* [AlexNet](https://kpzhang93.github.io/MTCNN_face_detection_alignment/](https://proceedings.neurips.cc/paper_files/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf) - The AlexNet **Research Paper**. 
+* [GradCAM](http://dlib.net/](https://arxiv.org/abs/1610.02391) - The GradCAM **Research Paper**.
 ---
 
 ### ⭐ If you find this project helpful, don’t forget to star the repo!
