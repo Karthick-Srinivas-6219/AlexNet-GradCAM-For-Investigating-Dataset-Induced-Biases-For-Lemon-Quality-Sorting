@@ -1,0 +1,7 @@
+ipykernel
+matplotlib
+streamlit
+seaborn
+tqdm
+scikit-learn
+grad-cam
